@@ -27,7 +27,7 @@ client.unfocused        #000000 #000000    #ffffff #000000   #000000
 client.urgent           #ff0000 #ff0000    #ffffff #ff0000   #ff0000
 
 # Assicurati che tutte le finestre abbiano i bordi normali con titolo
-default_border normal 0
+default_border pixel 0
 default_floating_border normal 0
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -153,21 +153,21 @@ gaps inner 0
 gaps outer 0
 
 # Use i3blocks to manage status bar information
-bar {
-	position top        
-	font pango:liberation mono 12
-	status_command i3blocks
-	mode dock
-	modifier None
-	tray_output primary
+# bar {
+# 	position top        
+# 	font pango:liberation mono 12
+# 	status_command i3blocks
+# 	mode dock
+# 	modifier None
+# 	tray_output primary
 
-	colors {
-		separator #ffffff
-		background #000000
-		statusline #ffffff
-		focused_workspace #ffffff #ffffff #1d101f
-	}
-}
+# 	colors {
+# 		separator #ffffff
+# 		background #000000
+# 		statusline #ffffff
+# 		focused_workspace #ffffff #ffffff #1d101f
+# 	}
+# }
 
 
 focus_follows_mouse no
